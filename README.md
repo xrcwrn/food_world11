@@ -17,10 +17,13 @@ pip install djangorestframework
 django-admin startproject restapi
 
 To run the Django development server
+
 python manage.py runserver
 
 To migrate
+
 python manage.py makemigrations
+
 python manage.py migrate
 
 python manage.py createsuperuser
