@@ -1,0 +1,33 @@
+django setup (Windows 10)
+python --version
+django-admin --version
+create a new virtual environment using the venv module:
+py -m venv venu
+activate the virtual environment:
+venu\Scripts\activate.bat
+
+creates a new project called test1:
+py -m pip install Django
+pip install django
+pip install djangorestframework
+
+django-admin startproject restapi
+
+To run the Django development server
+python manage.py runserver
+
+To migrate
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
+
+Create an app
+py manage.py startapp shop
+
+
+//basic crud
+https://radixweb.com/blog/create-rest-api-using-django-rest-framework
+do with
+https://stackabuse.com/creating-a-rest-api-with-django-rest-framework/
+
